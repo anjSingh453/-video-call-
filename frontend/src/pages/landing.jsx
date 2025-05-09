@@ -1,9 +1,8 @@
-import React from 'react'
-import "../App.css"
-import { Link, useNavigate } from 'react-router-dom'
+import React from 'react';
+import "../App.css";
+import { Link, useNavigate } from 'react-router-dom';
+
 export default function LandingPage() {
-
-
     const router = useNavigate();
 
     return (
@@ -13,41 +12,27 @@ export default function LandingPage() {
                     <h2> Video Call</h2>
                 </div>
                 <div className='navlist'>
-                    <p onClick={() => {
-                        router("/aljk23")
-                    }}>Join as Guest</p>
-                    <p onClick={() => {
-                        router("/auth")
-
-                    }}>Register</p>
-                    <div onClick={() => {
-                        router("/auth")
-
-                    }} role='button'>
+                    <p onClick={() => router("/aljk23")}>Join as Guest</p>
+                    <p onClick={() => router("/auth")}>Register</p>
+                    <div onClick={() => router("/auth")} role='button'>
                         <p>Login</p>
                     </div>
                 </div>
             </nav>
 
-
             <div className="landingMainContainer">
-                <div>
+                <div className="landingTextContainer">
                     <h1><span style={{ color: "#FF9839" }}>Connect</span> with your loved Ones</h1>
-
-                    <p>Cover a distance by  Video Call</p>
-                    <div role='button'>
+                    <p>Cover a distance by Video Call</p>
+                    <div className="getStartedBtn" role='button'>
                         <Link to={"/auth"}>Get Started</Link>
                     </div>
                 </div>
-                <div>
 
+                <div className="landingImageContainer">
                     <img src="/mobile.png" alt="" />
-
                 </div>
             </div>
-
-
-
         </div>
-    )
+    );
 }
