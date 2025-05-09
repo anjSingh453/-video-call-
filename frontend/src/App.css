@@ -94,3 +94,41 @@
   height: auto;
   border-radius: 20px;
 }
+
+
+
+@media (max-width: 768px) {
+  .landingMainContainer {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+
+  .landingTextContainer {
+    max-width: 100%;
+  }
+
+  .landingTextContainer h1 {
+    font-size: 2rem;
+  }
+
+  .landingTextContainer p {
+    font-size: 1rem;
+  }
+
+  .navlist {
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .navHeader h2 {
+    font-size: 1.5rem;
+  }
+
+  .landingImageContainer img {
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+}
