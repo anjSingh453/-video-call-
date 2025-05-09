@@ -98,10 +98,8 @@
 
 
 @media (max-width: 400px) {
-  .landingMainContainer {
-    flex-direction: column-reverse;
-    align-items: center;
-    text-align: center;
+   .landingImageContainer img {
+    max-width: 150px;
   }
 
   .landingTextContainer {
