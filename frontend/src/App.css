@@ -97,7 +97,7 @@
 
 
 
-@media (max-width: 873px) {
+@media (max-width: 400px) {
   .landingMainContainer {
     flex-direction: column-reverse;
     align-items: center;
