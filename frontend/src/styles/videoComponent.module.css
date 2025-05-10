@@ -61,3 +61,59 @@
 }
 
 
+@media (max-width: 768px) {
+  .conferenceView {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .conferenceView video {
+    width: 80vw;
+    height: 25vh;
+    min-width: unset;
+  }
+
+  .chatRoom {
+    position: static;
+    width: 90vw;
+    height: 40vh;
+    margin-top: 10px;
+  }
+
+  .meetUserVideo {
+    height: 15vh;
+    bottom: 5vh;
+    left: 10px;
+  }
+
+  .buttonContainers svg {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .conferenceView video {
+    width: 90vw;
+    height: 20vh;
+  }
+
+  .chatRoom {
+    width: 100vw;
+    height: 40vh;
+    border-radius: 0;
+  }
+
+  .buttonContainers {
+    padding-bottom: 10px;
+  }
+
+  .buttonContainers svg {
+    font-size: 2rem;
+  }
+
+  .meetUserVideo {
+    height: 12vh;
+    bottom: 5vh;
+    left: 5px;
+  }
+}
