@@ -25,16 +25,12 @@
 }
 
 .conferenceView { 
-/* 
+
     display: flex;
     
     padding: 10px;
-    gap: 10px; */
-   display: flex;
-  flex-direction: row;  /* Ensure side-by-side layout */
-  padding: 10px;
-  gap: 10px;
-  flex-wrap: wrap;
+    gap: 10px;
+   
 }
 
 .conferenceView  video {
@@ -79,18 +75,11 @@
   }
 
   @media (max-width: 768px) {
-  .chatRoom {
-    position: relative;     /* Not absolute */
-    background: white;
-    border-radius: 10px;
-    width: 30vw;
-    min-width: 250px;
-    max-width: 400px;
-    padding-inline: 20px;
-    height: auto;
-    max-height: 40vh;
-    overflow-y: auto;  /* <-- Important for scroll */
-    font-size: 1rem;   /* Adjust font size */
+    .chatRoom {
+    position: static;
+    width: 90vw;
+    height: 40vh;
+    margin-top: 10px;
   }
 }
 
