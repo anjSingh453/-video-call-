@@ -97,7 +97,7 @@
 
 
 
-@media (max-width: 543px) {
+@media (max-width: 400px) {
     .landingImageContainer img {
     max-width: 20px;
   }
