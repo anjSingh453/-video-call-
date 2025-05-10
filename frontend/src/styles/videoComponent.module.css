@@ -73,12 +73,16 @@
     min-width: unset;
   }
 
+  @media (max-width: 768px) {
   .chatRoom {
-    position: static;
-    width: 90vw;
-    height: 40vh;
-    margin-top: 10px;
+    width: 100vw;
+    height: auto;
+    max-height: 40vh;
+    overflow-y: auto;  /* <-- Important for scroll */
+    padding: 10px;
+    font-size: 1rem;   /* Adjust font size */
   }
+}
 
   .meetUserVideo {
     height: 15vh;
