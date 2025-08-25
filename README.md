@@ -1,51 +1,73 @@
-#  ZoomLite– Real-Time Video Conferencing App
+# 📹 ZoomLite – Real-Time Video Conferencing App
+
 ZoomLite is a real-time video conferencing web application that allows users to create and join secure video meetings instantly.
-Built with WebRTC and Socket.IO, it provides high-quality video/audio calls, chat functionality, and screen sharing—similar to Zoom but lightweight and developer-friendly.
+Built with **WebRTC** and **Socket.IO**, it provides high-quality video/audio calls, chat functionality, and screen sharing—similar to Zoom but lightweight and developer-friendly.
 
-## Features
-Create & join meeting rooms with unique links
+---
 
- Real-time video and audio conferencing (WebRTC)
+## ✨ Features
 
-In-meeting chat support
+* 🔗 Create & join meeting rooms with unique links
+* 🎥 Real-time video and audio conferencing (WebRTC)
+* 💬 In-meeting chat support
+* 🖥️ Screen sharing for presentations
+* 👥 Multiple participants support
+* 🔒 Secure rooms using unique meeting IDs
+* 📱 Responsive UI for desktop & mobile
 
- Screen sharing for presentations
+---
 
-Multiple participants support
+## 🛠️ Technologies Used
 
-Secure rooms using unique meeting IDs
+* **Frontend:** React.js, Tailwind CSS
+* **Backend:** Node.js, Express.js
+* **Real-time Communication:** WebRTC, Socket.IO
+* **Database:** MongoDB
+* **Deployment:** Render
 
-Responsive UI for desktop & mobile
+---
 
-  ## Technologies Used
-Frontend: React.js, Tailwind CSS
+## ⚙️ Installation & Setup
 
-Backend: Node.js, Express.js
+### 1️⃣ Clone the repository
 
-Real-time Communication: WebRTC, Socket.IO
+```bash
+git clone https://github.com/anjSingh453/-video-call-.git
+cd -video-call-
+```
 
-Database : MongoDB
+### 2️⃣ Install dependencies
 
-Deployment: Render
+```bash
+npm install
+```
 
-  ## Installation & Setup
-  Clone the repository : git clone  https://github.com/anjSingh453/-video-call-/tree/main
-  Install dependencies :npm install
-  Run backend server   :cd backend 
-                         npm start
+### 3️⃣ Run backend server
 
-  Run frontend         : cd frontend
-                         npm start
+```bash
+cd backend
+npm start
+```
 
- Open in browser       :Go to  http://localhost:8000
+### 4️⃣ Run frontend
+
+```bash
+cd frontend
+npm start
+```
+
+### 5️⃣ Open in browser
+
+```text
+http://localhost:8000
+```
+
+---
+
+## 📸 Application Preview
  
 
-  
-## Application Preview
- 
+---
 
-
-
-
-
- 
+Would you like me to also **add a section about “Future Enhancements” and “Project Learnings”**?
+👉 This makes your README more **portfolio-oriented** (recruiters love that) instead of just documentation.
