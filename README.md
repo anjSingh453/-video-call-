@@ -69,5 +69,9 @@ http://localhost:8000
 
 ---
 
-Would you like me to also **add a section about “Future Enhancements” and “Project Learnings”**?
-👉 This makes your README more **portfolio-oriented** (recruiters love that) instead of just documentation.
+##  Future Enhancements
+
+📹 Add meeting recording feature
+
+📊 Dashboard for meeting analytics (duration, participants, etc.)
+ 
