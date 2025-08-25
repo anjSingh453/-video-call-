@@ -29,7 +29,7 @@ Database : MongoDB
 Deployment: Render
 
   ## Installation & Setup
-  Clone the repository : git clone https://github.com/your-username/zoomlite.git
+  Clone the repository : git clone  https://github.com/anjSingh453/-video-call-/tree/main
   Install dependencies :npm install
   Run backend server   :cd backend 
                          npm start
