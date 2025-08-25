@@ -1,15 +1,32 @@
-# SpotifyClone
-A clone of the Spotify web application built using HTML and CSS. This project aims to replicate the original Spotify website's layout and design, providing a similar user experience.
+#  ZoomLite– Real-Time Video Conferencing App
+ZoomLite is a real-time video conferencing web application that allows users to create and join secure video meetings instantly.
+Built with WebRTC and Socket.IO, it provides high-quality video/audio calls, chat functionality, and screen sharing—similar to Zoom but lightweight and developer-friendly.
 
 ## Features
-- Responsive design that works on various screen sizes
-- Navigation bar similar to the original Spotify
-- Sections for playlists, albums, and songs
-- design mimicking the Spotify interface
+Create & join meeting rooms with unique links
+
+ Real-time video and audio conferencing (WebRTC)
+
+In-meeting chat support
+
+ Screen sharing for presentations
+
+Multiple participants support
+
+Secure rooms using unique meeting IDs
+
+Responsive UI for desktop & mobile
 
   ## Technologies Used
-- HTML
-- CSS
+Frontend: React.js, Tailwind CSS
+
+Backend: Node.js, Express.js
+
+Real-time Communication: WebRTC, Socket.IO
+
+Database (if used): MongoDB
+
+Deployment: (e.g., Vercel, Heroku, Render, or AWS)
 
   ## Installation
 - Clone the repository:
