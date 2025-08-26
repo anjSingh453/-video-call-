@@ -66,7 +66,7 @@ http://localhost:8000
 
 ## 📸 Application Preview
  
-
+![image alt](https://github.com/anjSingh453/chatbot-web/blob/main/Samples/login.png?raw=true)
 ---
 
 ##  Future Enhancements
