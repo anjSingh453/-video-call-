@@ -65,8 +65,9 @@ http://localhost:8000
 ---
 
 ## 📸 Application Preview
- 
-![image alt](https://github.com/anjSingh453/chatbot-web/blob/main/Samples/login.png?raw=true)
+
+![image alt](https://github.com/anjSingh453/-video-call-/blob/main/Samples/video%20call.png?raw=true)
+![image alt](https://github.com/anjSingh453/-video-call-/blob/main/Samples/Screenshot%202025-08-25%20151100.png?raw=true)
 ---
 
 ##  Future Enhancements
